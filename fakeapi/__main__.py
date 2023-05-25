@@ -8,7 +8,7 @@ def fakeapi_server():
     parser = argparse.ArgumentParser(prog = 'python -m fakeapi')
     parser.add_argument("-s", "--server", type=str, default='localhost',
                         help="HTTP server address")
-    parser.add_argument("-p", "--port", type=int, default=8080,
+    parser.add_argument("-p", "--port", type=int, default=80,
                         help="HTTP server port")
     parser.add_argument("-P", "--prefix", type=str, default=None,
                         help="HTTP prefix (http://server:port)")
